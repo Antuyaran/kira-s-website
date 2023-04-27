@@ -1,0 +1,33 @@
+p{
+    color:rgb(255, 68, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    /*width: 600px;*/
+    font-size: 100px;
+
+} 
+body{ 
+    margin: 0%;
+    padding:0%;
+    background:rgb(0, 0, 0) url("../images/book3.jpg")no-repeat fixed center center;
+    background-size: 4000px 3000px;
+
+}
+h1{
+    color:rgb(255, 68, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 50pt;
+}
+
+h3{
+    color:rgb(255, 68, 0);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+a{
+    color:rgb(255, 68, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 20pt;
+}
