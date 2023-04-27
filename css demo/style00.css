@@ -1,0 +1,40 @@
+
+body {
+    margin: 0%;
+    padding:0%;
+    height:100vh;
+    justify-content: center;
+    align-content: center;
+    background: linear-gradient(125deg,#fc0478,#00ffd0,#fc0478,#00ffd0);
+    background-size: 500%;
+    animation: bgAnimation 15s linear infinite
+}
+@keyframes bgAnimation{
+    0%{background-position: 0% 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0% 50%;}}
+
+h1{
+    color:rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 50pt;
+}
+
+h3{
+    color:rgb(255,255,255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+h2{
+    color:rgb(255,255,255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+a{
+    color:rgb(255,255,255
+);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 20pt;
+}
