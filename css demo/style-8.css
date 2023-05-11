@@ -6,7 +6,7 @@ p {
     border-width: 20px;
     border-style: solid;
     position: relative;
-    color: rgb(255, 0, 132);
+    color: rgb(145, 255, 0);
   }
   
   .t1 {
@@ -36,7 +36,7 @@ p {
           
       
   .pink {
-    color: rgb(255, 0, 132);
+    color: rgb(145, 255, 0);
   }
  
   
