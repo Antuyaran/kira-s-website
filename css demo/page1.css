@@ -1,0 +1,106 @@
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.box{
+	width:100%;
+	margin:0 auto;
+	border:1px solid #FFF;
+	overflow:hidden;
+}
+.animate{
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	padding-left:20px;
+	font-size:40px;
+	color:rgb(255, 57, 138);
+	display:inline-block;
+	white-space:nowrap;
+	animation:10s wordsloop linear infinite normal;
+	animation-delay: 0s;
+	animation-direction: alternate;
+}
+@keyframes wordsloop{
+	0%{
+		transform:translateX(0%);
+		-webkit-transform:translateX(0%);
+	}
+	100%{
+		transform:translateX(-100%);
+		-webkit-transform:translateX(-100%);
+
+	}
+	
+}
+@-webkit-keyframes wordsloop{
+	0%{
+		transform:translateX(0%);
+		-webkit-transform:translateX(0%);
+	}
+	100%{
+		transform:translateX(-100%);
+		-webkit-transform:translateX(-100%);
+
+	}
+}
+body {
+	font-size: 18px;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	background: url(../img/timg.jpg) no-repeat top center;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+	background-image: linear-gradient(to top, rgb(255, 57, 138) 0%, rgb(255, 255, 255) 50%);
+}
+form {
+	width: 420px;
+	height: 300px;
+	padding-top: 60px;
+	margin: 250px auto;
+	background: rgb(255, 57, 138);
+	border-radius: 20px;
+	border: 1px solid rgb(255, 255, 255);
+}
+.form-control {
+	margin-top: 15px;
+	text-align: center;
+}
+ 
+.number.pas {
+	width: 165px;
+	height: 18px;
+	border: 1px solid rgb(255, 255, 255);
+	padding: 2px 2px 2px 22px;
+	border-radius: 5px;
+	color: #FFF;
+}
+.number {
+	background:url(../img/33.png) no-repeat 5px center rgb(255,255,255,0.1) ;
+}
+.pas {
+	background: url(../img/44.png) no-repeat 5px center rgba(255,255,255,0.3);
+}
+.loginbtn {
+	z-index:11;
+	position:absolute;
+	top:550px;
+	left:580px;
+	width: 193px;
+	height: 28px;
+	border-radius: 6px;
+	border: 10px solid #000;
+	margin-left: 45px;
+	background: #ffffff;
+	color: rgb(255, 57, 138);
+	border: none;
+	margin-top:10px;
+}
+a{
+	z-index:0;
+	position:absolute;
+	top:560px;
+	left:690px;
+	font-size:20px;
+}
+

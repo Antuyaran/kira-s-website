@@ -1,0 +1,22 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+h2{
+    width:2000px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(255, 57, 138);
+    color:rgb(255, 255, 255);
+}
+h1{
+
+   font-size: 100pt;
+}
+p{
+    width: 900px;
+    font-size: 15pt;
+    color: rgb(255, 57, 138);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}

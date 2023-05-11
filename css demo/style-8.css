@@ -1,0 +1,45 @@
+p {
+    margin: 0;
+    padding: 50px;
+    max-width: 100px;
+    display: inline-block;
+    border-width: 20px;
+    border-style: solid;
+    position: relative;
+    color: rgb(255, 0, 132);
+  }
+  
+  .t1 {
+    top: 60px;
+    left: 100px;
+  }
+  
+  .t2 {
+    top: 0px;
+    left: 30px;
+  }
+  
+  .t3 {
+    bottom: 40px;
+    left: 10px;
+  }
+  
+  .t1:hover {
+    color: rgb(0, 0, 0);
+    }
+    .t2:hover {
+        color: rgb(0, 0, 0);
+        }
+        .t3:hover {
+            color: rgb(0, 0, 0);
+            }
+          
+      
+  .pink {
+    color: rgb(255, 0, 132);
+  }
+ 
+  
+  body{
+    background-color: black;
+  }

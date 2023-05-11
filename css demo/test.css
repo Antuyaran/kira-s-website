@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+  }
+
+  /* flex container */
+  .container {
+    display:grid;
+     grid-template-columns: 20% 70% 10%; 
+     grid-template-rows: 15% 85%;
+
+     padding: 0;
+     margin: 0;
+     width: 1000px;
+     height: 1000px;
+     margin: 50px auto;
+     border: 1px solid black;
+     background: beige;
+ 
+    
+}
+
+
+  /* flex items */
+  .item {
+    background: white;
+    border: 1px solid black;
+
+    font-size: 30px;
+    font-style: italic;
+    line-height: 1;
+    /* transition: 1s linear; */
+  }

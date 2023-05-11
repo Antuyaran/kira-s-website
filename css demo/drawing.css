@@ -1,0 +1,188 @@
+ #body{
+    margin:0;
+    padding:0;
+      }
+#table{
+    z-index: index 0;
+        width:2000px;
+        height:500px;
+        position:absolute;
+        top:530px;
+        left:0px;
+        background-color: rgb(232, 232, 232);
+}
+ #vase{
+    z-index:11;
+        width:150px;
+        height:350px;
+        position:absolute;
+        top:300px;
+        left:800px;
+        /*background-color: rgb(122, 209, 84);*/
+     }
+     #ball{
+        z-index:14;
+        width:100%;
+        height:40%;
+        border-radius:50%;
+        position:absolute;
+        top:50%;
+        left:0%;
+        background-color: rgb(122, 209, 84);
+     }
+     #bottom{
+        z-index:12;
+        position:absolute;
+        width: 80px;
+        height: 500px;
+        top: 80px;
+        left: 806px;
+        border-style: solid;
+        border-width: 0 30px 90px 30px;  
+        border-color: transparent transparent rgb(122, 209, 84) transparent;
+     }
+     #neck{
+        z-index:13;
+        position:absolute;
+        width: 70px;
+        height: 500px;
+        top: 300px;
+        left: 810px;
+        border-style: solid;
+        border-width: 250px 30px 0 30px;
+        border-color:rgb(122, 209, 84) transparent;
+     }
+     
+     #orange1{
+        z-index: 10;
+        position: absolute;
+        width: 140px;
+        height: 120px;
+        background-color: #ff5500;
+        top:600px;
+        left:600px;
+        /* 圆形设置 */
+        border-radius: 189px 135px 147px 143px;
+    }
+    #orange1:hover{
+        position: absolute;
+        background-color: rgb(255, 0, 119);
+        animation-name: rotate;
+        animation-duration: 0.7s;
+        animation-delay: 0s;
+      }
+    @keyframes rotate {
+        0% {
+          transform: rotate(0);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    #orange2{
+        z-index: 9;
+        position: absolute;
+        width: 140px;
+        height: 110px;
+        background-color: #ff8800;
+        transform: translate(490px,480px);
+        border-radius: 140px 157px 143px 120px;
+    }
+    #orange3{
+        z-index: 8;
+        position: absolute;
+        width: 120px;
+        height: 95px;
+        background-color: #e65c17;
+        transform: translate(495px,575px);
+        border-radius: 141px 141px 141px 141px;
+    }
+    #orange4{
+        z-index:7;
+        position: absolute;
+        width: 120px;
+        height: 110px;
+        background-color: #ffde06;
+        transform: translate(300px,580px);
+        border-radius: 186px 188px 144px 144px; 
+    }
+    #kuaizi1{
+        z-index:1;
+        width: 500px;
+        height:10px;
+        position:absolute;
+        top:300px;
+        left:645px;  
+        background-color: rgb(0, 0, 0);
+        transform: rotate(100deg);
+    }
+    #kuaizi2{
+        z-index:1;
+        width: 500px;
+        height:10px;
+        position:absolute;
+        top:295px;
+        left:627px;  
+        background-color: rgb(0, 0, 0);
+        transform: rotate(97deg);
+    }
+    #kuaizi3{
+        z-index:1;
+        width: 500px;
+        height:10px;
+        position:absolute;
+        top:305px;
+        left:610px;  
+        background-color: rgb(0, 0, 0);
+        transform: rotate(83deg);
+    }
+    #kuaizi4{
+        z-index:1;
+        width: 500px;
+        height:10px;
+        position:absolute;
+        top:300px;
+        left:605px;  
+        background-color: rgb(99, 92, 85);
+        transform: rotate(78deg);
+    }
+    #kuaizi5{
+        z-index:0;
+        width: 500px;
+        height:10px;
+        position:absolute;
+        top:300px;
+        left:625px;  
+        background-color: rgb(138, 130, 121);
+        transform: rotate(87deg);
+    }
+    #glass{
+        z-index:0;
+        width: 160px;
+        height:245px;
+        position:absolute;
+        top:450px;
+        left:1000px;  
+        background-color: rgb(71, 246, 255);
+        opacity:0.7;
+    }
+    #glass:hover{
+        animation-name: transformX;
+        animation-duration: 0.7s;
+        animation-delay: 0s;
+      }
+    @keyframes transformX {
+        0% {
+          transform: translate(0);
+        }
+        100% {
+          transform: translate(50px, -100px);
+        }
+       
+    
+    }
+    h1{
+        font-style: italic;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     }
+
