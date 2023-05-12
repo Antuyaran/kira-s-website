@@ -1,80 +1,64 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Flex&Grid Demo4</title>
-    <style>
-     body {
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-            height: 100px;
-        }
-        .box {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 20px;
-            background-color: #d0d0d0;
-            height: 25vh;
-            width: 25vh;
-            transition: transform 0.3s ease-out;
-            margin: 0;
-            padding: 50px;
-            max-width: 100px;
-            border-width: 10px;
-            border-style: solid;
-            position: relative;
-     color: rgb(89, 255, 0);
-        }
-      
-       
-     
-        .kong {
-            height: 25vh;
-            width: 25vh;
-        }
-        a{
-            position:absolute;
-            top:600px;
-            left:10px;
-            font-size: 60px;
-        }
-    </style>
+  <title>css-EXERCISE🐻</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('../images/flower3.jpeg');
+     background-repeat: no-repeat;
+     background-size: cover;
+    }
+    
+    .container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    .item {
+      position: relative;
+      overflow: hidden;
+      background-color: rgb(0, 0, 0);
+      transition: background-color 0.3s ease;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
+    
+    .item:hover {
+      background-color: transparent;
+    }
+    
+    .item img {
+      display: block;
+      width: 100%;
+      height: auto;
+      transition: transform 0.3s ease;
+    }
+    
+    .item:hover img {
+      transform: scale(1.1);
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <div class="box">Loading</div>
-        <div class="kong"></div>
-        <div class="box">Request not approved</div>
-        <div class="box">Request unsuccessful</div>
-        <div class="box">Warning</div>
-        <div class="box">Request not granted</div>
-        <div class="center">
-           
-        </div>
-        <div class="box">Wrong</div>
-        <div class="kong"></div>
-        <div class="box">404 NOT FOUND</div>
-        <div class="box"></div>
-        <div class="box">Unable to access page</div>
-        <div class="box">Inaccessible</div>
-        <div class="kong"></div>
-        <div class="box">Unable to access the page</div>
-        <div class="kong"></div>
-            <div class="box">ERROR！</div>
-        </div>
-       
-          
-      </div>
-        <div class="kong"></div>
+  <div class="container">
+    <div class="item">
+      <img src="../images/flower.jpeg" alt="图片2">
     </div>
-
- <a href="main-page.html">back</a >
+    <div class="item">
+      <img src="../images/flower2.jpeg" alt="图片2">
+    </div>
+    <div class="item">
+      <img src="../images/flower3.jpeg" alt="图片3">
+    </div>
+   
+      </div>
+    <!-- 重复这个块12次，根据需要更改图片路径和alt属性 -->
+  </div>
 </body>
 </html>

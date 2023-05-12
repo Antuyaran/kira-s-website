@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>诗歌展示</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background:rgb(0, 0, 0) url("../images/flower.jpeg")no-repeat fixed center center;
+      background-size: 1000px 600px;
+    }
+    
+    .container {
+      display: flex;
+      justify-content: space-between;
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    .left-column,
+    .center-column,
+    .right-column {
+      flex-basis: 30%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      
+    }
+    
+    .left-column {
+      background-color: #f7f7f7;
+    }
+
+.center-column{
+    background-color: #f7f7f7;
+
+}
+    
+    .right-column {
+      background-color: #f7f7f7;
+    }
+    
+    @media (max-width: 768px) {
+      .container {
+        flex-wrap: wrap;
+      }
+      
+      .left-column,
+      .center-column,
+      .right-column {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+      }
+    }
+    .triangle {
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 100px solid blue;
+      cursor: pointer;
+      position:absolute;
+      top:10;
+      left:10;
+    }
+    
+    .triangle.clicked {
+      border-bottom-color: orange;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left-column">
+      <h2>作者</h2>
+      <p>小熊</p>
+    </div>
+    <div class="center-column">
+      <h2>夜晚像一块蜂蜜</h2>
+      <p>夜晚像一块蜂蜜，凉凉的，甜甜的，黏在我的脸上</p>
+      
+    </div>
+    <div class="right-column">
+      <h2>注释</h2>
+      <p>你懂的，小熊不需要注释</p>
+    </div>
+    
+  </div>
+  <div class="triangle" onclick="changeColor()"></div>
+  
+  <script>
+    function changeColor() {
+      var triangle = document.querySelector('.triangle');
+      triangle.classList.add('clicked');
+      setTimeout(function() {
+        window.location.href = 'main-page.html'; // 替换为目标页面的URL
+      }, 500);
+    }
+  </script>
+</body>
+</html>
